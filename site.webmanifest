@@ -1,0 +1,11 @@
+{
+  "name": "AFANA Animal Futures",
+  "short_name": "AFANA",
+  "icons": [
+    { "src": "images/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "images/favicon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#03236E",
+  "background_color": "#FBFDFF",
+  "display": "browser"
+}
