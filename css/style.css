@@ -161,17 +161,19 @@ nav.main-nav { display: flex; align-items: center; gap: 2rem; }
 .hero-inner {
   position: relative; z-index: 2;
   max-width: var(--max); margin: 0 auto; padding: 130px 28px 90px; width: 100%;
+  display: flex; flex-direction: column; align-items: center;
+  text-align: center;
 }
 .hero .eyebrow { color: var(--sky-accent); }
 .hero h1 {
   font-size: clamp(2.6rem, 6vw, 4.5rem);
-  color: #fff; max-width: 14ch; margin-bottom: 1.3rem;
+  color: #fff; max-width: 16ch; margin-bottom: 1.3rem;
 }
 .hero .lead {
   font-size: clamp(1.05rem, 1.5vw, 1.22rem);
   color: rgba(255,255,255,0.88); max-width: 46ch; margin-bottom: 2.2rem;
 }
-.hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; }
+.hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
 
 /* ══════════════════════════════
    STAT STRIP
