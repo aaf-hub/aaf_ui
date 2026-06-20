@@ -22,41 +22,46 @@ document.querySelectorAll('.main-nav a').forEach(a => {
 // ── Team bio modal ──
 const teamData = {
   farhan: {
-    name: "Farhan",
-    role: "Co-Founder & Director",
-    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+    name: "Farhan Rhidor Akorede",
+    role: "Co-Founder & Research Lead",
+    img: "team_images/Farhan.jpg",
     bio: [
-      "Farhan co-founded AFANA Animal Futures with a focus on building research-driven programmes that connect animal welfare with community wellbeing.",
-      "He leads on strategy, partnerships, and the day-to-day direction of AFANA's work across Kaduna State and Nigeria.",
-      "⚠️ Replace this placeholder text with Farhan's real biography — background, qualifications, what drew him to animal welfare, and his vision for AFANA."
+      "Farhan Rhidor Akorede is a veterinary surgeon, research scientist, and Co-Founder & Research Lead at AFANA Animal Futures, where he leads the organisation's research on animal welfare, One Health, and sustainable livestock systems across Nigeria. He holds a DVM from the University of Ilorin and an MVSc in Veterinary Pharmacology at Usmanu Danfodiyo University, Sokoto.",
+      "Farhan has led grant-funded, multiregional studies on farmers' behavioural drivers for welfare in cattle production (funded by Welttierschutzstiftung) and on stakeholder awareness of welfare during livestock transport and in markets (funded by the Humane Slaughter Association), alongside earlier work on hen welfare and cage-free sourcing with the One Health and Development Initiative. His research has been published in journals including the Animal Welfare Journal, Medicine in Microecology, and PLoS One, and he serves as a peer reviewer for Discover Public Health and BMC Agriculture.",
+      "Before co-founding AFANA, Farhan worked as a private veterinary surgeon conducting clinical services for farms and pet owners, and welfare inspections at abattoirs and markets. He was a research associate with Tailored Food (Canada), contributing to food systems research across African countries in partnership with UNICEF. He combines clinical veterinary experience with quantitative research and policy translation to drive practical, evidence-based animal welfare outcomes across Nigeria and the wider region.",
+      "In his spare time, he enjoys reading, writing, gaming, playing and watching football, and reading manga or watching anime."
     ]
   },
   kaosarah: {
-    name: "Kaosarah",
-    role: "Co-Founder & Director",
-    img: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80",
+    name: "Kaosarah Omowumi Lawal",
+    role: "Co-Founder & Programs Lead",
+    img: "team_images/Kaosarah.png",
     bio: [
-      "Kaosarah co-founded AFANA Animal Futures, bringing expertise in community engagement and on-the-ground relationships with farmers and local partners.",
-      "She leads on research design and AFANA's partnerships with farming communities across Kaduna State.",
-      "⚠️ Replace this placeholder text with Kaosarah's real biography — background, qualifications, what drew her to animal welfare, and her vision for AFANA."
+      "Kaosarah is a veterinarian, data and AI professional, and Co-Founder & Programs Lead at AFANA Animal Futures, where she leads advocacy, programme implementation, partnerships, and operations focused on farmed animal welfare, sustainable food systems, and One Health initiatives across Africa.",
+      "With a background in veterinary medicine, public health, data analytics, and artificial intelligence, she works at the intersection of animal welfare, technology, and social impact. Her work focuses on translating evidence into action through advocacy, stakeholder engagement, programme management, and the development of innovative solutions that improve outcomes for animals, people, and the environment.",
+      "At AFANA Animal Futures, she contributes to programme design, organisational growth, and partnerships that strengthen impact. Beyond the nonprofit sector, she builds data-driven and AI-powered solutions that help organisations automate workflows, improve efficiency, and make better decisions through technology.",
+      "Her professional interests include farmed animal welfare, One Health, public health, artificial intelligence, data science, and tech-enabled social impact. She is passionate about building scalable, practical solutions that create measurable and lasting change for animals and communities.",
+      "In her spare time, she enjoys building tech solutions, reading, listening to podcasts, and watching documentaries."
     ]
   },
-  "research-intern": {
-    name: "Research Intern",
-    role: "Research Intern",
-    img: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80",
-    bio: [
-      "Supports AFANA's research work, including on-farm welfare assessments, literature reviews, and data analysis across our active projects.",
-      "⚠️ Replace this placeholder with the Research Intern's real name, photo, and biography once confirmed."
-    ]
-  },
-  "project-manager": {
-    name: "Project Manager",
+  mutiat: {
+    name: "Adetona Mutiat",
     role: "Project Manager",
-    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+    img: "team_images/Mutiat.jpg",
     bio: [
-      "Oversees the day-to-day running of AFANA's projects, coordinating timelines, partners, and resources across our research and advocacy work.",
-      "⚠️ Replace this placeholder with the Project Manager's real name, photo, and biography once confirmed."
+      "Adetona Mutiat is a Doctor of Veterinary Medicine and holds an MSc in Veterinary Public Health and Preventive Medicine. She is passionate about advancing animal welfare and promoting safe animal health practices through research and evidence-based interventions.",
+      "Her interests include infectious diseases, antimicrobial resistance (AMR), zoonoses prevention and control, and food safety, with a strong focus on One Health approaches that improve outcomes for both animals and humans.",
+      "Prior to joining AFANA, she was a team member of the IDRC-funded BAC4Ruma Project, which explored bacteriocin-rich extracts for ruminants and aquaculture as sustainable alternatives to antibiotic use in animal production. She also serves as the Welfare and Logistics Director of AfricaPHSN, supporting awareness and interventions on key human and animal health issues.",
+      "In her spare time, she enjoys reading, exploring, and watching movies."
+    ]
+  },
+  fatimah: {
+    name: "Fatimah Muhammad Bello",
+    role: "Research Assistant",
+    img: "team_images/Fatimah.jpg",
+    bio: [
+      "Fatimah Muhammad Bello is a veterinary doctor passionate about animal health and welfare. She is dedicated to providing quality veterinary care, preventing and controlling animal diseases, and promoting sustainable livestock development. She is committed to professionalism, integrity, and continuous learning, and strives to make a positive impact in her community through effective veterinary services and public awareness on animal health.",
+      "In her free time, she enjoys cooking, which allows her to express creativity and develop new skills while maintaining a balanced lifestyle."
     ]
   }
 };
