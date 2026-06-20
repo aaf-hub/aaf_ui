@@ -327,6 +327,7 @@ nav.main-nav { display: flex; align-items: center; gap: 2rem; }
 }
 .split-text .highlight-box p { color: var(--green-deep); font-weight: 600; font-size: 1.05rem; margin: 0; }
 .citations { margin-top: 1.4rem; font-size: 0.78rem; color: #8b9a92; border-top: 1px solid var(--line); padding-top: 0.9rem; }
+.citations a { color: var(--bright-blue); text-decoration: underline; word-break: break-word; }
 
 /* Value cards */
 .value-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.4rem; }
