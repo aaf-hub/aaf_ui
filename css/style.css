@@ -244,6 +244,7 @@ nav.main-nav { display: flex; align-items: center; gap: 2rem; }
 ══════════════════════════════ */
 .project-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.6rem; }
 .project-card {
+  display: block;
   border: 1px solid var(--line); border-radius: var(--radius);
   overflow: hidden; background: #fff;
   transition: box-shadow 0.2s, transform 0.2s;
@@ -424,7 +425,7 @@ nav.main-nav { display: flex; align-items: center; gap: 2rem; }
   background: var(--green-deep); padding: 90px 0 70px; color: #fff;
 }
 .page-hero .eyebrow { color: var(--sky-accent); }
-.page-hero h1 { color: #fff; font-size: clamp(2rem, 4.5vw, 3.2rem); margin-bottom: 0.9rem; max-width: 18ch; }
+.page-hero h1 { color: #fff; font-size: clamp(1.8rem, 4vw, 3rem); margin-bottom: 0.9rem; max-width: 46ch; }
 .page-hero p { color: rgba(255,255,255,0.82); font-size: 1.08rem; max-width: 52ch; }
 
 /* ══════════════════════════════
