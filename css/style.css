@@ -166,7 +166,7 @@ nav.main-nav { display: flex; align-items: center; gap: 2rem; }
 }
 .hero .eyebrow { color: var(--sky-accent); }
 .hero h1 {
-  font-size: clamp(2rem, 3.8vw, 3.4rem);
+  font-size: clamp(1.4rem, 5vw, 3.4rem);
   color: #fff; max-width: 34ch; margin-bottom: 1.3rem;
 }
 .hero .lead {
