@@ -507,3 +507,29 @@ footer {
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--clay); outline-offset: 3px; }
+/* ══════════════════════════════
+   TEAM GRID VARIANTS
+══════════════════════════════ */
+.team-grid--founders {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.6rem;
+  max-width: 620px;
+  margin: 0 auto 2.4rem;
+}
+
+.team-grid--staff {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+
+@media (max-width: 960px) {
+  .team-grid--founders { max-width: 100%; }
+  .team-grid--staff { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 580px) {
+  .team-grid--founders,
+  .team-grid--staff { grid-template-columns: 1fr 1fr; }
+}
