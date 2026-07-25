@@ -63,7 +63,16 @@ const teamData = {
       "Fatimah Muhammad Bello is a veterinary doctor passionate about animal health and welfare. She is dedicated to providing quality veterinary care, preventing and controlling animal diseases, and promoting sustainable livestock development. She is committed to professionalism, integrity, and continuous learning, and strives to make a positive impact in her community through effective veterinary services and public awareness on animal health.",
       "In her free time, she enjoys cooking, which allows her to express creativity and develop new skills while maintaining a balanced lifestyle."
     ]
-  }
+  },
+islamiyah: {
+  name: "Adefila Islamiyyah Adebimpe",
+  role: "Research Intern (Volunteer)",
+  img: "team_images/Islamiyah.png",
+  bio: [
+    "Adefila Islamiyyah Adebimpe is a Veterinary Medicine student at the University of Ilorin with     hands-on diagnostic and research experience from the *National Veterinary Research     Institute (NVRI)*. At NVRI, she worked directly in pathology workflows, sample processing,    and toxicology to support disease surveillance and animal health.",
+    "Islamiyyah is passionate about improving animal health and welfare through early diagnosis, preventive care, and modern technology including spatial design and digital tools for veterinary education and diagnostic precision. Combined with her international student leadership as a Global Ambassador for the Standing Committee on Veterinary Education (SCOVE) with the International Veterinary Students' Association (IVSA), she brings solid lab skills, clear communication, and a practical, welfare-conscious approach to veterinary research."
+  ]
+}
 };
 
 const backdrop = document.getElementById('modal-backdrop');
