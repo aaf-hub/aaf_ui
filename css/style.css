@@ -435,7 +435,7 @@ footer {
   background: var(--green-deep); color: rgba(255,255,255,0.82);
   padding: 64px 0 30px;
 }
-.footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 2.5rem; margin-bottom: 2.5rem; }
+.footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 2.5rem; margin-bottom: 2.5rem; }
 .footer-logo {
   display: flex; align-items: center; gap: 10px;
   font-family: 'Fraunces', serif; font-weight: 700; font-size: 1.2rem;
