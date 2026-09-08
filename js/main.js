@@ -44,17 +44,18 @@ const teamData = {
       "In her spare time, she enjoys building tech solutions, reading, listening to podcasts, and watching documentaries."
     ]
   },
-  mutiat: {
-    name: "Adetona Mutiat",
-    role: "Project Manager",
-    img: "team_images/Mutiat.jpg",
-    bio: [
-      "Adetona Mutiat is a Doctor of Veterinary Medicine and holds an MSc in Veterinary Public Health and Preventive Medicine. She is passionate about advancing animal welfare and promoting safe animal health practices through research and evidence-based interventions.",
-      "Her interests include infectious diseases, antimicrobial resistance (AMR), zoonoses prevention and control, and food safety, with a strong focus on One Health approaches that improve outcomes for both animals and humans.",
-      "Prior to joining AFANA, she was a team member of the IDRC-funded BAC4Ruma Project, which explored bacteriocin-rich extracts for ruminants and aquaculture as sustainable alternatives to antibiotic use in animal production. She also serves as the Welfare and Logistics Director of AfricaPHSN, supporting awareness and interventions on key human and animal health issues.",
-      "In her spare time, she enjoys reading, exploring, and watching movies."
-    ]
-  },
+ firdaus: {
+  name: "Firdaus",
+  role: "Project Manager",
+  img: "team_images/Firdaus.jpg",
+  bio: [
+    "Firdaus is a versatile professional with a First Class Honours degree in Animal Science from the University of Ilorin and a Graduate Animal Scientist under the Nigeria Institute of Animal Science. She is passionate about animal welfare and its effect on the environment, and intends to improve environmental sustainability through animal welfare.",
+    "She possesses remote experience across research, data analysis, Environmental Social Governance (ESG) reporting, and administrative coordination, with high-quality delivery and strong communication using digital tools including Excel, Python, and CRM platforms.",
+    "Prior to joining AFANA, she worked as an ESG analyst, a data analyst, a Research Assistant, and an Outreach Consultant.",
+    "Her professional interests include data analysis, research, and artificial intelligence. She enjoys contributing to organisations by providing scalable, data-driven practical solutions and impact.",
+    "In her spare time, she enjoys reading, sleeping, writing, and travelling."
+  ]
+},
   fatimah: {
     name: "Fatimah Muhammad Bello",
     role: "Research Assistant",
