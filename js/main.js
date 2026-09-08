@@ -47,7 +47,7 @@ const teamData = {
  firdaus: {
   name: "Firdaus",
   role: "Project Manager",
-  img: "team_images/Firdaus.jpg",
+  img: "team_images/Firdaus.png",
   bio: [
     "Firdaus is a versatile professional with a First Class Honours degree in Animal Science from the University of Ilorin and a Graduate Animal Scientist under the Nigeria Institute of Animal Science. She is passionate about animal welfare and its effect on the environment, and intends to improve environmental sustainability through animal welfare.",
     "She possesses remote experience across research, data analysis, Environmental Social Governance (ESG) reporting, and administrative coordination, with high-quality delivery and strong communication using digital tools including Excel, Python, and CRM platforms.",
